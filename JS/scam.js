@@ -87,6 +87,8 @@
                 box.style.width = door.clientWidth + "px";
                 box.style.height = door.clientHeight + "px";
                 box.textContent = pool[i];
+
+
                 boxesClone.appendChild(box);
             }
             boxesClone.style.transitionDuration = `${duration > 0 ? duration : 1}s`;
