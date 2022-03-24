@@ -10,6 +10,7 @@
         "🔥",
         "💸",
     ];
+
     document.querySelector(".info").textContent = items.join(" ");
 
     const doors = document.querySelectorAll(".door");
